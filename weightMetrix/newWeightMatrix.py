@@ -30,7 +30,7 @@ RAW = 20  # RAW means the number of voxel consist one line in the reconstructed 
 NUM_OF_VOXEL = RAW*RAW
 NORMALIZED_PIXEL_WITH = 0.984  # (m)
 WIDTH_OF_WEIGHTING_ELLIPSE = 0.02  # parameter describing the with of the ellipse
-PIXEL_CORRELATION_CONSTANT = 4
+PIXEL_CORRELATION_CONSTANT = 2
 PIXEL_VARIANCE = 0.4
 
 # number of raw recommended to exceed with the NODE_IN_LINE

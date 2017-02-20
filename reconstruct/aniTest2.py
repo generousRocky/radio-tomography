@@ -30,12 +30,13 @@ RAW = 20
 NUM_OF_VOXEL = RAW*RAW
 
 DIFF_WITH_PREVIOUS_CYCLE = NUM_OF_NODE*1
-FRAME_INTERVAL = 50
+FRAME_INTERVAL = 600
 NOISE_VARIANCE = 10
 
 
 # weight matrix
 W = pd.read_csv("weightMatrix.txt", header=None, index_col=False)
+
 W_inverse = pd.DataFrame(np.linalg.pinv(W.values), W.columns, W.index)
 W_transpose = W.transpose()
 
