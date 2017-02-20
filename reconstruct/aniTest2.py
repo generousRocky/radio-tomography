@@ -26,12 +26,12 @@ import matplotlib.animation as animation
 
 NUM_OF_NODE = 20
 NUM_OF_LINK = NUM_OF_NODE*(NUM_OF_NODE-1)
-RAW = 20
+RAW = 25
 NUM_OF_VOXEL = RAW*RAW
 
 DIFF_WITH_PREVIOUS_CYCLE = NUM_OF_NODE*1
 FRAME_INTERVAL = 60
-NOISE_VARIANCE = 10
+NOISE_VARIANCE = 13
 
 
 # weight matrix
@@ -64,7 +64,7 @@ fig = plt.figure()
 
 x = np.linspace(0, NUM_OF_NODE, NUM_OF_NODE)
 y = np.linspace(0, NUM_OF_NODE, NUM_OF_NODE).reshape(-1, 1)
-im = plt.matshow(x+y, fignum=0 , vmin=0, vmax=2.5)
+im = plt.matshow(x+y, fignum=0 , vmin=0, vmax=3)
 
 #frameCount=0
 
