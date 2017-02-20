@@ -50,7 +50,7 @@ mat_inverse = pd.DataFrame(np.linalg.pinv(mat.values), mat.columns, mat.index)
 MAT = mat_inverse.dot(W_transpose)
 
 # raw data text file from serial
-fileName = "lib.txt"
+fileName = "test.txt"
 
 raw = pd.read_table(fileName, sep="\s+", header=None)
 table = raw.iloc[0:, 1:] # detatch time
