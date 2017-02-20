@@ -37,9 +37,10 @@ def start():
 
         line = ser.readline()
 
-        line2 = nowTime+line
-        f.write(line2,)
-        print line2
+        if (line[0] == "N") | (line[0] == "T"):
+            line2 = nowTime+line
+            f.write(line2,)
+            print line2
 
         # end if
     # end while

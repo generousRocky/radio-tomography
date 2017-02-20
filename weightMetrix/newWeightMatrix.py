@@ -26,10 +26,10 @@ NUM_OF_LINK = NUM_OF_NODE*(NUM_OF_NODE-1)
 NUM_OF_ONESIDE = NUM_OF_NODE/4 + 1
 
 # Reconstruction Image Configuration
-RAW = 20 # RAW means the number of voxel consist one line in the reconstructed image
+RAW = 25 # RAW means the number of voxel consist one line in the reconstructed image
 NUM_OF_VOXEL = RAW*RAW
 NORMALIZED_PIXEL_WITH = 0.984  # (m)
-WIDTH_OF_WEIGHTING_ELLIPSE = 0.3 # parameter describing the with of the ellipse
+WIDTH_OF_WEIGHTING_ELLIPSE = 0.02 # parameter describing the with of the ellipse
 PIXEL_CORRELATION_CONSTANT = 3
 PIXEL_VARIANCE = 0.4
 
