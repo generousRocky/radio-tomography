@@ -1,3 +1,16 @@
+/*
+
+This source code is contiki application for radio tomography
+
+please check the README file before you run of edit this code
+
+Heerak Lim (rocky).
+
+rocky92.lim@gmail.com
+Rocky.Lim@data61.csiro.au
+
+*/
+
 
 #include "contiki.h"
 #include "net/rime/rime.h"
@@ -137,9 +150,6 @@ PROCESS_THREAD(example_broadcast_process, ev, data)
       packetbuf_copyfrom( buffer, sizeof(buffer));
       broadcast_send(&broadcast);
     }// end iteration
-
-    // memset( recentRssi, -99, sizeof(recentRssi) );//flush
-
 
     PROCESS_WAIT_EVENT_UNTIL( ev == PROCESS_EVENT_CONTINUE);   
 
