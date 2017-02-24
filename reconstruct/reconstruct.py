@@ -1,6 +1,6 @@
 """
 
-This simple python codes reconstruct the image from raw data of RSSIs.
+This simple python codes reconstruct the image from raw data of RSSI.
 
 The RSSI values are read as a text file that written by "serial.py" python code.
 

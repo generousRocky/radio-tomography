@@ -1,0 +1,1 @@
+To get a raw data for radio tomography, you should connect master node to your pc and make sure the serial connection. before run "test.py", check "/dev" directory and change the serial port strig to your own device.

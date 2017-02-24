@@ -1,0 +1,1 @@
+To make covariance matrix and weight matrix for radio tomography, run this matrix.pu code. it will take for a while and put the two text files to the same directory of raw data file and recontruction python code(reconstruct.py).

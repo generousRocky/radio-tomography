@@ -14,8 +14,6 @@ Rocky.Lim@data61.csiro.au
 """
 
 
-
-
 import serial
 import time
 
