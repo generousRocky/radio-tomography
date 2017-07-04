@@ -166,7 +166,7 @@ def meanStd():
 def showBoxPlot(EVERY):
     for i in range(TOTAL_NODE_NUM):
         for j in range(TOTAL_NODE_NUM):
-            #targetNode = 1
+            targetNode = 1
             if i == targetNode & i !=j:
                 df = linkDF[i]
                 df.loc[:, TOTAL_NODE_NUM] = pd.Series((df.index / EVERY))
@@ -197,7 +197,7 @@ def showBoxPlot(EVERY):
 csvToLinkDF(FILE_NAME)
 
 showLinkDF(START, END)
-# showLinkDiff()
-# showPacketLoss()
+showLinkDiff()
+#showPacketLoss()
 # meanStd()
 # showBoxPlot(3)
