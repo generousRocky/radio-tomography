@@ -19,7 +19,7 @@ import time
 
 # the device name and number can be vary up to the device
 # before run this code, check the /dev/
-ser= serial.Serial('/dev/tty.usbmodemL3000641',115200 ,timeout=30)
+ser= serial.Serial('/dev/tty.usbserial-FT9S77QU',115200 ,timeout=30)
 
 
 now = time.localtime()
