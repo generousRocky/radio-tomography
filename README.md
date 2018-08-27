@@ -11,9 +11,11 @@
 
 ---
 
+<div class="header" align="center">
 <a href="https://www.youtube.com/watch?v=A1ZUN6HhKXg" title="temp">
-		<img alt="" src="https://rockylim92.github.io/images/csiro_6_0.png" width="400px" />
+<img alt="" src="https://rockylim92.github.io/images/csiro_6_0.png" width="650px" />
 </a>
+</div>
 
 
 ### Overview
