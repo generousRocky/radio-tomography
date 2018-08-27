@@ -22,7 +22,7 @@ Radio Tomographic Imaging (RTI) is a technology that uses a sensor network syste
 
     In the Image Reconstruction step, the reconstruction algorithm was implemented in Python code by referring to the mathematical model proposed in the previous study [1], and the image was created by Parameter optimization process for the used device SensorTag CC2650 [2] . [3]
 
-The full stack code is accessible from the CSIRO private repository. The main algorithms and the code for the reconstruction can be found at https://github.com/RockyLim92/radio-tomography. The project demo video is available at www.youtube.com/watch?v = A1ZUN6HhKXg.
+The full stack code is accessible from the CSIRO private repository. The main algorithms and the code for the reconstruction can be found at https://github.com/RockyLim92/radio-tomography. The project demo video is available at www.youtube.com/watch?v=A1ZUN6HhKXg.
 
 
 
@@ -48,7 +48,9 @@ Follow the instructions on [https://rockylim92.github.io/research/csiro03/]
 Follow the instructions on 
 
 [https://rockylim92.github.io/research/csiro04/]
+
 [https://rockylim92.github.io/research/csiro05/]
+
 [https://rockylim92.github.io/research/csiro06/]
 
 <!--
@@ -59,9 +61,9 @@ Follow the instructions on
 
 ### Contents
 `[Directory Description]`
-- contiki-examples/rti_master: master node
-- contiki-examples/radio_tomograph: slave nodes
-- reconstruct: python codes for image reconstruction
+- contiki-examples/rti_master/ - master node
+- contiki-examples/radio_tomograph/ - slave nodes
+- reconstruct/ - python codes for image reconstruction
 - etc
 
 
@@ -72,6 +74,9 @@ Follow the instructions on
 
 ### References
 -[1]: Wilson, Joey, and Neal Patwari. & Quot; Radio tomographic imaging with wireless networks. & Quot; IEEE Transactions on Mobile Computing 9.5 (2010): 621-632.
+
 -[2]: rockylim92.github.io/research/csiro02
+
 -[3]: rockylim92.github.io/research/csiro06
+
 -[4]: rockylim92.github.io/research/csiro04
