@@ -73,10 +73,10 @@ Follow the instructions on
 - Jin
 
 ### References
--[1]: Wilson, Joey, and Neal Patwari. & Quot; Radio tomographic imaging with wireless networks. & Quot; IEEE Transactions on Mobile Computing 9.5 (2010): 621-632.
+[1]: Wilson, Joey, and Neal Patwari. & Quot; Radio tomographic imaging with wireless networks. & Quot; IEEE Transactions on Mobile Computing 9.5 (2010): 621-632.
 
--[2]: rockylim92.github.io/research/csiro02
+[2]: rockylim92.github.io/research/csiro02
 
--[3]: rockylim92.github.io/research/csiro06
+[3]: rockylim92.github.io/research/csiro06
 
--[4]: rockylim92.github.io/research/csiro04
+[4]: rockylim92.github.io/research/csiro04
